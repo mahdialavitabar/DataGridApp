@@ -3,6 +3,19 @@
     src: url('../../../public/font/iransans.woff2');
 }
 .button {
+    all: unset;
     font-family: iransans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+background-color: crimson;
+    width: 15rem;
+    border-radius: 10px;
+    text-align: center;
+    height: 2.5rem;
+}
+.button:hover {
+    background-color: darkred;
 
 }
